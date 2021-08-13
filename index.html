@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-light bg-dark navbar-expand-sm justify-content-center">
+    <nav class="navbar fixed-top navbar-expand-sm justify-content-center">
             <ul class="navbar-nav navbar-center">
                 <li class="nav-item active">
                     <a href="index.html" class="nav-link nav-item text-white">Home</a>
@@ -20,7 +20,7 @@
                     <a href="#projectSection" class="nav-item nav-link text-white">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#ContactSection" class="nav-item nav-link text-white">Contact</a>
+                    <a href="#contactSection" class="nav-item nav-link text-white">Contact</a>
                 </li>
             </ul>
     </nav>
@@ -31,111 +31,111 @@
                 <br>
                 I'm a full stack web developer.
             </div>
-            <div class="buttonToHome">
-                <button type="button" class="btn btn-dark">
-                    View my work ->
-                </button>
-            </div>
+                <form>
+                    <input class="btn btn-light" type="button" value="Click Me!" onclick="playSound()">
+                </form>
         </div>
     </section>
     <section class="AboutSection" id="AboutSection">
         <div class="container">
-            <div class="row justify-content-center" id="aboutRow1">
-                About
+                <div class="row justify-content-center" id="aboutRow1">
+                    About
+                </div>
+                <div class="row" id="aboutRow2">
+                    <div class="col-md-3">
+                        <div>
+                            <img src="styles/clock.png" alt="">
+                        </div>
+                        <div class="justify-content-center">
+                            <h2>Fast</h2>
+                        </div>
+                        <div>
+                            <p>
+                                fast like Lightning McQueen
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div>
+                            <img src="styles/responsive.png" alt="">
+                        </div>
+                        <div class="justify-content-center">
+                            <h2>Responsive</h2>
+                        </div>
+                        <div>
+                            <p>
+                                Intuitive like Lightning McQueen
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div>
+                            <img src="styles/idea.png" alt="">
+                        </div>
+                        <div class="justify-content-center">
+                            <h2>Intuitive</h2>
+                        </div>
+                        <div>
+                            <p>
+                                Intuitive like Lightning McQueen
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div>
+                            <img src="styles/shuttle.png" alt="">
+                        </div>
+                        <div class="justify-content-center">
+                            <h2>Dynamic</h2>
+                        </div>
+                        <div>
+                            <p>
+                                Dynamic like Lightning McQueen
+                            </p>
+                        </div>
             </div>
 
-            <div class="row" id="aboutRow2">
-                <div class="col-sm-3">
+            <div class="row" id="aboutRow3">
+                <div class="col-sm-6">
                     <div>
-                        <img src="styles/clock.png" alt="">
-                    </div>
-                    <div class="justify-content-center">
-                        <h2>Fast</h2>
+                        <img class="img-fluid" src="styles/profile.png" alt="">
                     </div>
                     <div>
+                        <h2>
+                            Who is this guy
+                        </h2>
                         <p>
-                            fast like Lightning McQueen
+                            The champ is here
                         </p>
                     </div>
                 </div>
-                <div class="col-sm-3">
-                    <div>
-                        <img src="styles/responsive.png" alt="">
-                    </div>
-                    <div class="justify-content-center">
-                        <h2>Responsive</h2>
-                    </div>
-                    <div>
-                        <p>
-                            Intuitive like Lightning McQueen
-                        </p>
-                    </div>
+                <div class="col-sm-6">
+                    <h1>Full stack developer</h1>
+                    <h2>Waddap</h2>
+                    <h3>Yo</h3>
+                    <p>Hi</p>
                 </div>
-                <div class="col-sm-3">
-                    <div>
-                        <img src="styles/idea.png" alt="">
-                    </div>
-                    <div class="justify-content-center">
-                        <h2>Intuitive</h2>
-                    </div>
-                    <div>
-                        <p>
-                            Intuitive like Lightning McQueen
-                        </p>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div>
-                        <img src="styles/shuttle.png" alt="">
-                    </div>
-                    <div class="justify-content-center">
-                        <h2>Dynamic</h2>
-                    </div>
-                    <div>
-                        <p>
-                            Dynamic like Lightning McQueen
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        <div class="row" id="aboutRow3">
-            <div class="col-sm-6">
-                <div>
-                    <img src="styles/profile.png" alt="">
-                </div>
-                <div>
-                    <h2>
-                        Who is this guy
-                    </h2>
-                    <p>
-                        The champ is here
-                    </p>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <img src="styles/bar-chart.png" alt="">
             </div>
         </div>
     </section>
 
     <section class="projectSection" id="projectSection">
-        <div class="container-fluid">
+        <div class="container-fluid ">
             <div class="row">
                 <div class="col-sm">
                     <ul id="projectList">
                         <li>
-                            <button>
+                            <button type="button" class="btn btn-info">
                                 Project 1
                             </button>
                         </li>
                         <li>
-                            <button>
+                            <button type="button" class="btn btn-info">
                                 project 2
                             </button>
                         </li>
                         <li>
-                            <button>
+                            <button type="button" class="btn btn-info">
                                 project 3
                             </button>
                         </li>
@@ -146,19 +146,61 @@
                 </div>
             </div>
         </div>
-    </section class="contactSection" id="contactSection">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col">
-                    Contact form
+    </section>
+    <section class="contactSection mb-4 text-center text-white" id="contactSection">
+        <h1 id="aboutRow1">
+            Contact page
+        </h1>
+
+        <div class="row justify-content-center">
+            <form class="col-7 border border-top-0 rounded" id="contact-form" name="contact-form" action="#" method="POST">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control" placeholder="Email Address">
+                        </div>
+                    </div>
                 </div>
-            </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form">
+                            <textarea type="text text-black" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Your Message"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center text-md-left">
+                    <a class="btn btn-primary custom">Send</a>
+                </div>
+                <div class="status"></div>
+            </form>
         </div>
-    <section>
     </section>
 
-
+    <section class="footerSection" id="footerSection">
+        <div class="container-fluid bg-dark text-white">
+            <div class="row justify-content-center">
+                @2020 Copyright: 
+            </div>
+            <div class="row justify-content-center">
+                Not really copyrighted
+            </div>
+        </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
 </body>
 </html>
