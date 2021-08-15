@@ -2,6 +2,10 @@ function playSound(){
     var audio = new Audio("wow.mp3");
     audio.play();
 }
+function playPerfect(){
+    var audio = new Audio("perfect.mp3");
+    audio.play();
+}
 
 var myNodelist = document.getElementById("li");
 var i;
