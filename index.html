@@ -8,10 +8,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-expand-sm justify-content-center">
+    <nav class="navbar fixed-top navbar-expand-sm justify-content-center bg-dark" role="navigation">
+        <a href="#" class="navbar-brand"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-white">
+                #
+            </span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarScroll">
             <ul class="navbar-nav navbar-center">
                 <li class="nav-item active">
-                    <a href="index.html" class="nav-link nav-item text-white">Home</a>
+                    <a href="index.html" class="nav-link nav-item text-white active">Home</a>
                 </li>
                 <li class="nav-item">
                     <a href="#AboutSection" class="nav-item nav-link text-white">About</a>
@@ -23,6 +30,7 @@
                     <a href="#contactSection" class="nav-item nav-link text-white">Contact</a>
                 </li>
             </ul>
+            </div>
     </nav>
     <section class="HomeSection text-white align-self-center">
         <div class="row align-items-center h-50">
@@ -120,29 +128,33 @@
     </section>
 
     <section class="projectSection" id="projectSection">
-        <div class="container-fluid ">
+
+        <div class="container-fluid">
+            <h1 id="projectRow1">
+                Projects
+            </h1>
             <div class="row">
                 <div class="col-sm">
                     <ul id="projectList">
                         <li>
-                            <button type="button" class="btn btn-info">
-                                Project 1
-                            </button>
+                            <form action="todo.html">
+                                <input type="submit" value="To Do List"  class="btn btn-info" />
+                            </form>
                         </li>
                         <li>
-                            <button type="button" class="btn btn-info">
-                                project 2
-                            </button>
+                            <form action="todo.html">
+                                <input type="submit" value="Project 2"  class="btn btn-info" />
+                            </form>
                         </li>
                         <li>
-                            <button type="button" class="btn btn-info">
-                                project 3
-                            </button>
+                            <form action="todo.html">
+                                <input type="submit" value="Project 3"  class="btn btn-info" />
+                            </form>
                         </li>
                     </ul>
                 </div>
-                <div class="col-sm">
-                    <p>Column 1</p>
+                <div class="col-sm align-self-center">
+                    <img src="styles/projects.png" alt="">
                 </div>
             </div>
         </div>
@@ -153,7 +165,7 @@
         </h1>
 
         <div class="row justify-content-center">
-            <form class="col-7 border border-top-0 rounded" id="contact-form" name="contact-form" action="#" method="POST">
+            <form class="col-7" id="contact-form" name="contact-form" action="#" method="POST">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="md-form mb-0">

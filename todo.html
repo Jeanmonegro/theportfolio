@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo list</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/todo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div class="container-fluid w-75">
+            <div class="row">
+                <div class="col text-center p-4">
+                    <h1>
+                        To Do List
+                    </h1>
+                </div>
+            </div>
+            <div class="row text-center border border-primary rounded border-2">
+                <div class="col-5" id="side">
+                    <input type="text" id="myInput" placeholder="Please Add Item">
+                    <span onclick="newElement()" class="btn">
+                        <button class="btn bg-primary">
+                            add
+                        </button>
+                    </span>
+                </div>
+                <div class="col-7 bg-primary">
+                    <ul id="myUL">
+                    </ul>
+                </div>
+            </div>
+            <div class="row text-center fixed-bottom">
+                <div class="col" id="footer">
+                    Page footer
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>

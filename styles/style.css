@@ -4,10 +4,6 @@
 .bg-primary{
     background-color: var(--clr-primary-200);
 }
-.navbar{
-    background-color: black;
-    
-}
 .HomeSection{
     background-image: url(bg.jpg);
     background-position: center;
@@ -49,7 +45,6 @@
     height: 100vh;
 }
 
-
 p{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 300;
@@ -57,6 +52,7 @@ p{
 .projectSection{
     height: 100vh;
     background-color: beige;
+    overflow: auto;
 }
 #projectList{
     list-style-type: none;
@@ -69,7 +65,17 @@ p{
     overflow: auto;
     background-color: darkslategrey;
 }
+.footerSection{
+    background-color: blue;
+    overflow: auto;
+}
 
 .custom{
     width: 78px;
+}
+#projectRow1{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
