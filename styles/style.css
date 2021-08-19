@@ -27,7 +27,7 @@
 .AboutSection{
     height: 100vh;
     background-color: lightblue;
-    overflow:auto;
+    /* overflow:auto; */
 }
 .row{
     height: 20vh;
@@ -52,7 +52,7 @@ p{
 .projectSection{
     height: 100vh;
     background-color: beige;
-    overflow: auto;
+    /* overflow: auto; */
 }
 #projectList{
     list-style-type: none;
@@ -66,8 +66,8 @@ p{
     background-color: darkslategrey;
 }
 .footerSection{
-    background-color: blue;
-    overflow: auto;
+    background-color: aliceblue;
+    /* height: 20px; */
 }
 
 .custom{
