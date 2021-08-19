@@ -1,9 +1,4 @@
-:root{
-    --clr-primary-200: #f3eed9;
-}
-.bg-primary{
-    background-color: var(--clr-primary-200);
-}
+
 .HomeSection{
     background-image: url(bg.jpg);
     background-position: center;

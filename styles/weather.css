@@ -71,11 +71,11 @@ body, html{
     background-color: #ffffb5;
     font-family: 'Merriweather', serif;
 }
+
 #nav{
     background-color: #abdee6;
     padding: 2rem;
-    font-family: 'Indie Flower', cursive;
-    
+    font-family: 'Indie Flower', cursive;    
 }
 #main{
     height: 80vh;
