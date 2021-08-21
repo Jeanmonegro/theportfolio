@@ -1,0 +1,10 @@
+html{
+    font-family: fantasy;
+}
+body{
+    align-items: center;
+    text-align: center;
+}
+.gallows {
+    float:left;
+}

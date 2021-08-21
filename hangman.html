@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hangman!</title>
+        <link rel="stylesheet" href="/static/styles/hangman.css" />
+    </head>
+    <body>
+        <div class="gallows">
+            <img src="/static/hangman-image/strike-0.png" id="gallows" alt="Gallows" width="250" height="250">
+        </div>
+        <div class="input">
+            <form>
+                Enter a letter</br>
+                <input type="text" id = "usr-input">
+                <input type="submit" id = "sub-btn">
+            </form>
+        </div>
+        <div class = "row">
+            Strike letters: 
+            <div class="strikes" id = "strikes">
+        </div>
+        <div class="word" id = "word">
+            Word
+        </div>
+    </body>
+    <script src="./static/hangman.js"></script>
+</html>

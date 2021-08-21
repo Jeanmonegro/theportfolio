@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .header {
+    background: url(/static/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: sepia(50%);
+    padding: 40px; /* some padding */
+    text-align: center; /* center the text */
+    color: rgb(255, 255, 255); /* white text color */
+  }
+  .header h1 {
+    font-size: 40px;
+  }
+  /* Style the top navigation bar */
+  .nav-center {
+    overflow: hidden; /* Hide overflow */
+    background-color: #333; /* Dark background color */
+  }
+  
+  /* Style the navigation bar links */
+  .nav-center a {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Right-aligned link */
+  .nav-center a.right {
+    float: right; /* Float a link to the right */
+  }
+  
+  /* Change color on hover/mouse-over */
+  .nav-center a:hover {
+    background-color: #ddd; /* Grey background color */
+    color: black; /* Black text color */
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Column container */
+  .row { 
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    flex: 30%; /* Set the width of the sidebar */
+    background-color: #f1f1f1; /* Grey background color */
+    padding: 20px; /* Some padding */
+  }
+  
+  /* Main column */
+  .main { 
+    flex: 70%; /* Set the width of the main content */
+    background-color: white; /* White background color */
+    padding: 20px; /* Some padding */
+  }
+  @media screen and (max-width: 700px) {
+    .row { 
+      flex-direction: column;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+  }
+  .footer {
+    padding: 10px; /* Some padding */
+    background-color: #333; /* Dark background color */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .footer1 {
+    color: rgb(206, 206, 206);
+    float:left;
+    padding: 10px;
+    text-align: left;
+  }
+  .footer2 {
+    float:right;
+    padding: 10px;
+  }
+  .row {
+    display: flex;
+  }
+  .column {
+    flex: 50%;
+    text-align: center;
+    height: 300px;
+  }
+  .projects {
+    background-color: rgb(45, 73, 110)(0, 110, 255);
+    border-radius: 4px;
+    text-align: center;
+    height: 300px;
+  }
+  .button:hover {
+    background-color: greenyellow;
+    color: white;
+    border-radius: 4px;
+  }
+  .bigicons {
+    text-align: center;
+  }
